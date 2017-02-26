@@ -1,6 +1,6 @@
 <template>
 
-<SwipeView :bar="true" :onChange="updateAnimation">
+<SwipeView :bar="false" :onChange="updateAnimation">
 
 <div class="view">
   <div class="Vcontainer">
@@ -26,6 +26,7 @@
 
   </div>
 </div>
+
 <div class="view">
   <div class="Hcontainer">
 
@@ -34,11 +35,13 @@
       <div class="container">
         <h1>Oedipus: initial success</h1>
         <br>
-        <h3>“But we do rate you first of men, both in the common crises of our lives and face-to-face encounters with the gods” (43)</h3>
+        <blockquote>
+          “But we do rate you first of men, both in the common crises of our lives and face-to-face encounters with the gods” (43)
+        </blockquote>
       </div>
       <LineBreak></LineBreak>
     </div>
-    <svg id="king" data-name="Layer 7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1028.4 1226.3"><title>octopusclimb</title><path d="M536.8 1096.2h43s-30.2-82.3-21.5-84.5 21.5-100 21.5-100l24-176-76-126L634.3 564l37 13 15.2-28-17.5-35 37-32.7 54.5 17.4 13 41.3-37 37 13 30.4 32.6 17.4 16 30.4L732 764l52 24.8 4.5 131.6 26 8.7-54.3 29 2.2-130h-32.8l-30.2 39-41.4 23-28 85-19.6 121.5-4.3 35-63-15z" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="8"/><path fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="8" d="M573.8 633.2h41L594.3 677l-20.5-43.8zm6 278.5l78.5-21.7m13-313.2l43.5 37.4h48.5l-13.8 62.5-34.7 63.3v32.2l15 55M38.8 1224l67.3-92.7 94-84.8 11-52.2L385 901l54.2-59 61-15 101-68M748 738l102-20 98-33 79-8.5m0 289l-84 41.5-100 30.4-95.3 65.2-36 45.6-117.2 28.3-223-8.8-141.3-74"/><path d="M943 1007.4s-39-52.2-45.6-52.2-104.2-14.8-104.2-14.8m-32.4-.2h-119M830 890l80.4-30.4 116.4-15.3m-1024 76l55.5-53 15.2-61 43.4-20.7 19-26.2 74-51.8L230 501l-30.4-32.7 6.5-58.7 114-50 224 52 143.6 87m61 67.4l130 74 50.7 52" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="8"/><path fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="8" d="M306 537.8l82.7-43.5 93.5-24 204.3 79 50 27.7M106 973.8l98-42.5 54.3-76 106.5 12v-129l82.6-46.3 126.4 46.3 6 35M447.4 692l-7.7-210.7M251.4 175l-32.6-41.5V94.2l32.6-19.4L277.8 90v35.2L251.4 175z"/><path d="M165.8 75.5L144.6 110l22.2 15v41l-11 43.4 26 39V290l37 28 11 80.8 32-14.2V329l27 2v42l31-13.6 23-48 65.4 48S382.8 374 391 376l136.8 32 114-9.5 59.5-50 35.2-80.5-19.2-82.4-30.8-60.6h-28.7l13.5 17-13 2.2 28.3 30.6 30.7 89-46 80.4-43 26-107 11L528 340l87 11-72-50-76-106.7-61-19.4-61.5-40-38.7 19.2v-30l.3-33L293 57l-26-30h-19L219 5l-24 22-15 32.5z" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="8"/><path fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="8" d="M166.8 166.2l37 67.3 44.5 30.4 29.5-49 28-60v41l37 54 78.5 52 106.5 37"/><path fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="8" d="M218.8 318.3l43.8-15.3 28.3-26 36-48.5"/></svg>
+    <svg id="king" data-name="Layer 7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1028.4 1226.3"><title>octopusclimb</title><path d="M536.8 1096.2h43s-30.2-82.3-21.5-84.5 21.5-100 21.5-100l24-176-76-126L634.3 564l37 13 15.2-28-17.5-35 37-32.7 54.5 17.4 13 41.3-37 37 13 30.4 32.6 17.4 16 30.4L732 764l52 24.8 4.5 131.6 26 8.7-54.3 29 2.2-130h-32.8l-30.2 39-41.4 23-28 85-19.6 121.5-4.3 35-63-15z" fill="none" stroke="#2C3E52" stroke-miterlimit="10" stroke-width="8"/><path fill="none" stroke="#2C3E52" stroke-miterlimit="10" stroke-width="8" d="M573.8 633.2h41L594.3 677l-20.5-43.8zm6 278.5l78.5-21.7m13-313.2l43.5 37.4h48.5l-13.8 62.5-34.7 63.3v32.2l15 55M38.8 1224l67.3-92.7 94-84.8 11-52.2L385 901l54.2-59 61-15 101-68M748 738l102-20 98-33 79-8.5m0 289l-84 41.5-100 30.4-95.3 65.2-36 45.6-117.2 28.3-223-8.8-141.3-74"/><path d="M943 1007.4s-39-52.2-45.6-52.2-104.2-14.8-104.2-14.8m-32.4-.2h-119M830 890l80.4-30.4 116.4-15.3m-1024 76l55.5-53 15.2-61 43.4-20.7 19-26.2 74-51.8L230 501l-30.4-32.7 6.5-58.7 114-50 224 52 143.6 87m61 67.4l130 74 50.7 52" fill="none" stroke="#2C3E52" stroke-miterlimit="10" stroke-width="8"/><path fill="none" stroke="#2C3E52" stroke-miterlimit="10" stroke-width="8" d="M306 537.8l82.7-43.5 93.5-24 204.3 79 50 27.7M106 973.8l98-42.5 54.3-76 106.5 12v-129l82.6-46.3 126.4 46.3 6 35M447.4 692l-7.7-210.7M251.4 175l-32.6-41.5V94.2l32.6-19.4L277.8 90v35.2L251.4 175z"/><path d="M165.8 75.5L144.6 110l22.2 15v41l-11 43.4 26 39V290l37 28 11 80.8 32-14.2V329l27 2v42l31-13.6 23-48 65.4 48S382.8 374 391 376l136.8 32 114-9.5 59.5-50 35.2-80.5-19.2-82.4-30.8-60.6h-28.7l13.5 17-13 2.2 28.3 30.6 30.7 89-46 80.4-43 26-107 11L528 340l87 11-72-50-76-106.7-61-19.4-61.5-40-38.7 19.2v-30l.3-33L293 57l-26-30h-19L219 5l-24 22-15 32.5z" fill="none" stroke="#2C3E52" stroke-miterlimit="10" stroke-width="8"/><path fill="none" stroke="#2C3E52" stroke-miterlimit="10" stroke-width="8" d="M166.8 166.2l37 67.3 44.5 30.4 29.5-49 28-60v41l37 54 78.5 52 106.5 37"/><path fill="none" stroke="#2C3E52" stroke-miterlimit="10" stroke-width="8" d="M218.8 318.3l43.8-15.3 28.3-26 36-48.5"/></svg>
   </div>
 </div>
 <div class="view">
@@ -49,9 +52,9 @@
       <div class="container">
         <h1>Oedipus: downfall</h1>
         <br>
-        <h3>“You pray to the gods? Let me grant your prayers” (245)</h3>
+        <blockquote>“You pray to the gods? Let me grant your prayers” (245)</blockquote>
         <br>
-        <h3>“You’re blind to the corruption of your life, to the house you live in, those you live with” (471)</h3>
+        <blockquote>“You’re blind to the corruption of your life, to the house you live in, those you live with” (471)</blockquote>
       </div>
       <LineBreak></LineBreak>
     </div>
@@ -131,7 +134,7 @@ export default {
   opacity: 0;
 }
 
-.animation h1, .animation h3 {
+.animation h1, .animation h3, .animation blockquote {
   animation: text 1s ease 0.6s;
   animation-fill-mode: forwards;
 }
@@ -169,5 +172,14 @@ svg{
 @keyframes text {
   from { opacity: 0; }
   to { opacity: 100; }
+}
+
+blockquote {
+  text-align: left;
+  border-left: 3px solid #d94362;
+  padding-left: 20px;
+  font-size: 2.2rem;
+  margin: 0px 100px;
+  opacity: 0;
 }
 </style>
