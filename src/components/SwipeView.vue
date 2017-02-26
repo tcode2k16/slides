@@ -139,7 +139,9 @@ export default {
     this.main.on('swiperight', this.before);
 
     $(window).keydown(this.onKeydown.bind(this));
-    this.onChange(this.transform);
+    if (this.onChange) {
+      this.onChange(this.transform);
+    }
   },
   methods: {
     onKeydown(e) {
@@ -158,7 +160,9 @@ export default {
       this.update();
     },
     update() {
-      this.onChange(this.transform);
+      if (this.onChange) {
+        this.onChange(this.transform);
+      }
       $('.main').css('transform', `translate(${this.transform}00vw,0px)`);
     },
     haveBt() {
