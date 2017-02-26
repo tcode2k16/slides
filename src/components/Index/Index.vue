@@ -34,8 +34,8 @@
 </template>
 
 <script>
-import SwipeView from './SwipeView';
-import Christmas from './Index/Christmas';
+import SwipeView from '../SwipeView';
+import Christmas from './Christmas';
 
 export default {
   components: { SwipeView, Christmas },

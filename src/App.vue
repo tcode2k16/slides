@@ -12,6 +12,7 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 html, body {
   background-color: #ecf0f1;
@@ -22,5 +23,4 @@ html, body {
   left: 0;
   right: 0;
 }
-
 </style>

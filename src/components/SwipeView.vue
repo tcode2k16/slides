@@ -120,7 +120,7 @@ import ProgressBar from './ProgressBar';
 
 export default {
   components: { ProgressBar },
-  props: ['bar', 'bt', 'bn'],
+  props: ['bar', 'bt', 'bn', 'onChange'],
   data() {
     return {
       main: null,
@@ -139,6 +139,7 @@ export default {
     this.main.on('swiperight', this.before);
 
     $(window).keydown(this.onKeydown.bind(this));
+    this.onChange(this.transform);
   },
   methods: {
     onKeydown(e) {
@@ -157,6 +158,7 @@ export default {
       this.update();
     },
     update() {
+      this.onChange(this.transform);
       $('.main').css('transform', `translate(${this.transform}00vw,0px)`);
     },
     haveBt() {

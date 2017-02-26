@@ -54,11 +54,11 @@
 </style>
 
 <script>
-import SwipeView from './SwipeView';
-import Fox from './Intro/Fox';
-import Factory from './Intro/Factory';
-import Earth from './Intro/Earth';
-import Tree from './Intro/Tree';
+import SwipeView from '../SwipeView';
+import Fox from './Fox';
+import Factory from './Factory';
+import Earth from './Earth';
+import Tree from './Tree';
 
 export default {
   components: { Fox, Factory, Earth, Tree, SwipeView },

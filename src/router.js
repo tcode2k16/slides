@@ -1,7 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Index from './components/Index';
-import Intro from './components/Intro';
+import Index from './components/Index/Index';
+import Intro from './components/Intro/Intro';
+import OedipusFormative from './components/OedipusFormative/OedipusFormative';
 
 Vue.use(Router);
 
@@ -16,6 +17,11 @@ export default new Router({
       path: '/intro',
       name: 'intro',
       component: Intro,
+    },
+    {
+      path: '/oedipus_formative',
+      name: 'oedipus_formative',
+      component: OedipusFormative,
     },
   ],
 });
