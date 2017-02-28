@@ -1,6 +1,6 @@
 <template>
 
-<SwipeView :bar="false" :onChange="updateAnimation">
+<SwipeView :bar="true" :onChange="updateAnimation">
 
 <div class="view">
   <div class="Vcontainer">
