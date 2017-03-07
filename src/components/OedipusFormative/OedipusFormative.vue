@@ -77,8 +77,8 @@
 <script>
 import $ from 'jquery';
 import Vivus from 'vivus';
-import SwipeView from '../SwipeView';
-import LineBreak from './LineBreak';
+import SwipeView from '../_blocks/SwipeView';
+import LineBreak from '../_blocks/LineBreak';
 
 export default {
   components: { SwipeView, LineBreak },

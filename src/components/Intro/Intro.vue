@@ -54,7 +54,7 @@
 </style>
 
 <script>
-import SwipeView from '../SwipeView';
+import SwipeView from '../_blocks/SwipeView';
 import Fox from './Fox';
 import Factory from './Factory';
 import Earth from './Earth';
@@ -64,7 +64,7 @@ export default {
   components: { Fox, Factory, Earth, Tree, SwipeView },
   methods: {
     toIndex() {
-      this.$router.push('/');
+      this.$router.push('/index');
     },
   },
 };

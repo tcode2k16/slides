@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import SwipeView from '../SwipeView';
+import SwipeView from '../_blocks/SwipeView';
 import Christmas from './Christmas';
 
 export default {
