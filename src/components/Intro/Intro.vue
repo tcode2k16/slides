@@ -54,7 +54,7 @@
 </style>
 
 <script>
-import SwipeView from '../_blocks/SwipeView';
+import SwipeView from '../_blocks/Views/SwipeView';
 import Fox from './Fox';
 import Factory from './Factory';
 import Earth from './Earth';

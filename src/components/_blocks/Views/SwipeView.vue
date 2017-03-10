@@ -17,6 +17,22 @@
 
 <style scoped>
 
+.Vcontainer, .Hcontainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.Vcontainer {
+  flex-direction: column;
+}
+
+.Hcontainer {
+  flex-direction: row;
+}
+
 .title {
   text-align: center;
 }
@@ -108,6 +124,11 @@
   text-decoration:  none;
 }
 
+@keyframes text {
+  from { opacity: 0; }
+  to { opacity: 100; }
+}
+
 
 
 </style>
@@ -140,7 +161,7 @@ export default {
 
     $(window).keydown(this.onKeydown.bind(this));
     if (this.onChange) {
-      this.onChange(this.transform);
+      this.onChange(this.transform, this.transform);
     }
   },
   methods: {
@@ -152,17 +173,17 @@ export default {
       }
     },
     before() {
-      this.transform = Math.min(0, this.transform + 1);
-      this.update();
+      this.update(Math.min(0, this.transform + 1));
     },
     next() {
-      this.transform = Math.max(-this.len + 1, this.transform - 1);
-      this.update();
+      this.update(Math.max(-this.len + 1, this.transform - 1));
     },
-    update() {
-      if (this.onChange) {
-        this.onChange(this.transform);
+    update(trans) {
+      if (this.onChange && !(this.onChange(this.transform, trans))) {
+        return;
       }
+
+      this.transform = trans;
       $('.main').css('transform', `translate(${this.transform}00vw,0px)`);
     },
     haveBt() {

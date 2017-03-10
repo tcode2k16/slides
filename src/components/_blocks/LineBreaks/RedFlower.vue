@@ -14,8 +14,7 @@
     </div>
 </template>
 
-<style>
-
+<style scoped>
 .hr {
   display: flex;
   justify-content: center;
@@ -23,27 +22,22 @@
   align-items: center;
   margin: 50px 0px;
 }
-
 .line-left {
   margin-right: 20px;
   transform-origin: 100% 50%;
 }
-
 .line-right {
   margin-left: 20px;
   transform-origin: 0 50%;
 }
-
 .animation .line {
   animation: drawLine 1s ease 0.6s;
-  animation-fill-mode:forwards;
+  animation-fill-mode: forwards;
 }
-
 .animation #symbol {
   animation: drawSymbol 1s ease 0.6s;
-  animation-fill-mode:forwards;
+  animation-fill-mode: forwards;
 }
-
 .line {
   width: 260px;
   height: 2px;
@@ -53,16 +47,13 @@
   vertical-align: middle;
   transform: scale(0, 1);
 }
-
 #symbol {
   stroke-dasharray: 0, 166.656;
 }
-
 @keyframes drawSymbol {
   from { stroke-dasharray: 0, 166.656; }
   to { stroke-dasharray: 166.656, 166.656; }
 }
-
 @keyframes drawLine {
   from { transform: scale(0, 1); }
   to { transform: scale(1, 1); }
