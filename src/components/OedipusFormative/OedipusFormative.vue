@@ -136,7 +136,7 @@ export default {
 }
 
 .animation h1, .animation h3, .animation blockquote {
-  animation: text 1s ease 0.6s;
+  animation: fadeIn 1s ease 0.6s;
   animation-fill-mode: forwards;
 }
 
@@ -149,10 +149,6 @@ svg{
   /*animation-fill-mode: forwards;*/
 }
 
-@keyframes drip {
-  from { stroke-dasharray: 1 1000; }
-  to { stroke-dasharray: 1000 1000; }
-}
 
 
 

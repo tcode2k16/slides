@@ -2,38 +2,144 @@
 <div id='LeaderSummative'>
 <AnimatedSwipeView :bar="true" :svg="svg">
 
-<div class="view">
+<div class="view gradient">
   <div class="Vcontainer">
-    <h1>Leader’s pride</h1>
-    <RedFlower></RedFlower>
-    <h3>The key element to success</h3>
+    <div class="Vcontainer Card">
+      <h1>Leader’s pride</h1>
+      <RedFlower></RedFlower>
+      <h3>The key element to success</h3>
+    </div>
   </div>
 </div>
 
 <div class="view">
-  <div class="Vcontainer">
-    
-    <RedFlower></RedFlower>
-    <Quote>If you build an army of 100 lions and their leader is a dog, in any fight, the lions will die like a dog. But if you build an army of 100 dogs and their leader is a lion, all dogs will fight like a lion - <b>Napoleon Bonaparte</b></Quote>
-    <RedFlower></RedFlower>
-  </div>
-</div>
-<div class="view" data-animation-count="1">
   <div class="Hcontainer">
-    <div class="a Vcontainer">
-      <h1 id="baw">hi</h1>
+    <div class="HalfCard Vcontainer">
+      <div class="Vcontainer">
+        <Quote>"If you build an army of 100 lions and their leader is a dog, in any fight, the lions will die like a dog. But if you build an army of 100 dogs and their leader is a lion, all dogs will fight like a lion"<br>&emsp;&emsp;- <b>Napoleon Bonaparte</b></Quote>
+      </div>
     </div>
-    <div class="b Vcontainer">
-      <h1 id="baw">hi</h1>
+    <img src="/static/LeaderSummative/napoleon.jpg" alt="" class="halfImage">
+  </div>
+</div>
+
+
+<div class="view" data-animation-count="1">
+  <div class="Hcontainer" style="align-items: center; top: 0;position: absolute; z-index: 10;">
+    <YinYang></YinYang>
+  </div>
+  <div class="Hcontainer">
+    <div class="Half Vcontainer" style="background-color: #000; color: #fff; justify-content: flex-start; padding-top: 30vh;">
+      <h3>Succeeful Leader</h3>
+      <ul style="margin: 50px 150px; font-size: 2rem;">
+        <li>Confident</li>
+        <li>Possess pride</li>
+        <li>Humble</li>
+      </ul>
+    </div>
+    <div class="Half Vcontainer" style="background-color: #fff; justify-content:  flex-start; padding-top: 30vh;">
+      <h3>Failed Leader</h3>
+      <ul style="margin: 50px 150px; font-size: 2rem;">
+        <li>Too ambitious</li>
+        <li>Drowns in pride</li>
+      </ul>
     </div>
   </div>
 </div>
+
 <div class="view">
   <div class="Hcontainer">
-    <div id="test" style="width: 70%;"></div>
+    <div class="HalfCard Vcontainer">
+      <div class="Vcontainer">
+        <RedFlower></RedFlower>
+        <h5>Oedipus turned from a great leader to a leader that failed.</h5>
+        <RedFlower></RedFlower>
+      </div>
+    </div>
+    <img src="/static/LeaderSummative/oedipus.jpg" alt="" class="halfImage">
   </div>
 </div>
-<!--.view*4>.Vcontainer>(RedFlower*2)-->
+
+<div class="view">
+  <div class="Hcontainer">
+    <div class="HalfCard Vcontainer">
+      <div class="Vcontainer">
+        <Quote>“I must follow the people for I am their leader”<br>&emsp;&emsp;- <b>Mahatma Gandhi</b></Quote>
+        <br><br>
+        <Quote>“Even when [Gandhi] was fighting what was in effect a color war, he did not think of people in terms of race or status.”<br>&emsp;&emsp;- <b>George Orwell</b></Quote>
+      </div>
+    </div>
+    <img src="/static/LeaderSummative/gandhi.jpg" alt="" class="halfImage">
+  </div>
+</div>
+
+<div class="view">
+  <div class="Hcontainer">
+    <div class="HalfCard Vcontainer">
+      <div class="Vcontainer">
+        <RedFlower></RedFlower>
+        <h5>Marissa Mayer <br><br> the former executive of Google and current CEO of Yahoo</h5>
+        <RedFlower></RedFlower>
+      </div>
+    </div>
+    <img src="/static/LeaderSummative/mayer.jpg" alt="" class="halfImage">
+  </div>
+</div>
+
+<div class="view gradient" data-animation-count="1">
+  <div class="Hcontainer">
+    <FlipView class="Card" style="height: 315px !important; width: 560px !important; padding: 0px;background-color: transparent;">
+      <div slot="front">
+        <div class="Hcontainer">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/jaKoMCujc2k?start=838" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div slot="back">
+        <div class="Hcontainer">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/NEEug_1XEcc?start=110" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+      </div>
+
+    </FlipView>
+  </div>
+</div>
+
+<!--<div class="view leader">
+
+  <div class="Vcontainer Card">
+    <h3>a great leader should be confident and possess pride, but at the same time he or she shouldn’t be consumed by it. </h3>
+  </div>
+
+</div>-->
+
+<div class="view" data-animation-count="1">
+  <div class="Vcontainer" style="position: absolute; z-index: 10;">
+    <div class="Vcontainer Card popup">
+      <RedFlower></RedFlower>
+      <h3>a great leader should be confident and possess pride, but at the same time he or she shouldn’t be consumed by it. </h3>
+      <RedFlower></RedFlower>
+    </div>
+  </div>
+  <div class="Hcontainer">
+    <img src="/static/LeaderSummative/oedipus.jpg" alt="" style="width:33.333333%;">
+    <img src="/static/LeaderSummative/gandhi.jpg" alt="" style="width:33.333333%;">
+    <img src="/static/LeaderSummative/mayer.jpg" alt="" style="width:33.333333%;">
+  </div>
+
+</div>
+
+
+<div class="view city">
+
+  <div class="Vcontainer Card">
+    <h3>Be a confident and humble leader</h3>
+
+    <br><br>
+    <h5>Thank you!</h5>
+  </div>
+
+</div>
 
 </AnimatedSwipeView>
 </div>
@@ -41,11 +147,14 @@
 
 <script>
 
-import Vivus from 'vivus';
+// import Vivus from 'vivus';
 
 import AnimatedSwipeView from '../_blocks/Views/AnimatedSwipeView';
+import FlipView from '../_blocks/Views/FlipView';
 import RedFlower from '../_blocks/LineBreaks/RedFlower';
 import Quote from '../_blocks/Quote';
+import YinYang from './YinYang';
+import King from './King';
 
 export default {
   name: 'LeaderSummative',
@@ -53,6 +162,9 @@ export default {
     AnimatedSwipeView,
     RedFlower,
     Quote,
+    YinYang,
+    FlipView,
+    King,
   },
   data() {
     return {
@@ -62,11 +174,11 @@ export default {
     };
   },
   mounted() {
-    this.svg.test = new Vivus('test', {
-      duration: 2000,
-      file: 'static/test.svg',
-      type: 'sync',
-    });
+    // this.svg.test = new Vivus('test', {
+    //   duration: 2000,
+    //   file: 'static/test.svg',
+    //   type: 'sync',
+    // });
   },
 };
 </script>
@@ -75,43 +187,104 @@ export default {
 
 .view {
   background-color: #fff;
+  /*background: linear-gradient(45deg, rgba(222,61,33,1) 0%, rgba(0,178,60,1) 100%);*/
+  /*background: linear-gradient(45deg, rgba(59,173,227,1) 0%, rgba(87,111,230,1) 25%, rgba(152,68,183,1) 51%, rgba(255,53,127,1) 100%);*/
+  position: relative;
 }
 
-.view h1, .view h3 {
+.gradient {
+  background: linear-gradient(45deg, rgba(222,61,33,1) 0%, rgba(55,125,230,1) 100%);
+}
+
+.view h1, .view h3, .view h5 {
   text-align: center;
   opacity: 0;
 }
 
-.animation h1, .animation h3 {
-  animation: text 1s ease 0.6s;
+.view ul {
+  opacity: 0
+}
+
+.animation h1, .animation h3, .animation ul, .animation h5 {
+  animation: fadeIn 1s ease 0.6s;
   animation-fill-mode: forwards;
 }
 
-svg{
-  width: 40vw;
+.animation .Card {
+  animation: fadeIn 1s ease;
+  animation-fill-mode: forwards;
 }
 
-.a {
+.animation .popup {
+  animation: none;
+}
+
+.animation.anim1 .popup {
+  animation: fadeIn 1s ease;
+  animation-fill-mode: forwards;
+}
+
+
+.halfImage {
+  max-width:100%;
+  height: 100vh;
+}
+
+img {
+  object-fit: cover;
+}
+
+iframe {
+  margin: auto;
+}
+
+.Card {
+  width: 75vw !important;
+  height: auto !important;
   background-color: #fff;
+  margin: auto;
+  padding: 70px 50px;
+  box-shadow: 0px 4px 60px -5px rgba(0,0,0,0.9);
+  opacity: 0;
+}
+
+.HalfCard {
+  background-color: #fff;
+  padding: 0px 30px;
+  box-shadow: 30px 0px 75px -30px rgba(0,0,0,0.9);
+  z-index: 2;
+}
+
+.Half {
   width: 50%;
 }
 
-.b {
-  background-color: #222;
-  width: 50%;
+.leader {
+  background-image: url("/static/LeaderSummative/leader.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.b h1 {
+.city {
+  background-image: url("/static/LeaderSummative/city.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+
+}
+
+.leader .Card, .city .Card {
+  width: 30vw !important;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
 }
 
-.animation.anim1 #baw {
-  animation: text 1s ease 0.6s;
-  animation-fill-mode: forwards;
-}
 
-.animation #baw {
-  animation: none;
-  animation-fill-mode: none;
-}
+
 </style>

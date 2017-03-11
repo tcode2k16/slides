@@ -17,22 +17,6 @@
 
 <style scoped>
 
-.Vcontainer, .Hcontainer {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
-.Vcontainer {
-  flex-direction: column;
-}
-
-.Hcontainer {
-  flex-direction: row;
-}
-
 .title {
   text-align: center;
 }
@@ -70,7 +54,7 @@
 .main {
   display: flex;
   height: 100vh;
-  transition: transform 0.3s;
+  transition: transform 0.5s;
   
 }
 
@@ -124,10 +108,6 @@
   text-decoration:  none;
 }
 
-@keyframes text {
-  from { opacity: 0; }
-  to { opacity: 100; }
-}
 
 
 

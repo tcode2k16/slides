@@ -1,0 +1,135 @@
+
+/*red flower*/
+@keyframes drawSymbol {
+  from { stroke-dasharray: 0, 166.656; }
+  to { stroke-dasharray: 166.656, 166.656; }
+}
+@keyframes drawLine {
+  from { transform: scale(0, 1); }
+  to { transform: scale(1, 1); }
+}
+
+/*old*/
+@keyframes move {
+  0% { transform: rotate(10deg)}
+  50%{transform: rotate(-30deg)}
+  100%{transform: rotate(10deg)}
+}
+
+@keyframes deco {
+  0% { transform: rotate(5deg)}
+  50%{transform: rotate(-10deg)}
+  100%{transform: rotate(5deg)}
+}
+
+@keyframes rotateElement {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+  100% {
+    -webkit-transform: translate(-400px, 0);
+            transform: translate(-400px, 0);
+  }
+}
+
+@keyframes piscar {
+  15% {
+    height: 1px;
+  }
+  45% {
+    height: 9px;
+  }
+  50% {
+    height: 1px;
+  }
+}
+
+@keyframes voaa {
+  0% {transform: translateY(0px)}
+  50% {transform: translateY(2px)}
+}
+
+@keyframes bounce {
+	0% {
+		border-top: 5px #fff solid;
+	}
+
+	50% {
+		border-top: 10px #fff solid;
+	}
+
+	100% {
+		border-top: 5px #fff solid;
+	}
+}
+
+@keyframes shake {
+	0%, 100% {
+		height: 110px;
+	}
+
+	10%, 50% {
+		height: 80px;
+	}
+
+	30%, 70% {
+		height: 70px;
+	}
+
+	90% {
+		height: 110px;
+	}
+}
+
+@keyframes cloud {
+	0% {
+		opacity: 0;
+		top: -10px;
+		transform: scale(0);
+	}
+
+	50% {
+		opacity: 1;
+		top: -40px;
+		transform: scale(1);
+	}
+
+	100% {
+		opacity: 0;
+		top: -80px;
+	}
+}
+
+/*new*/
+
+@keyframes drip {
+  from { stroke-dasharray: 1 1000; }
+  to { stroke-dasharray: 1000 1000; }
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 100; }
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translate(0, 0px);
+    color: red;
+  }
+  25% { transform: translate(100px, 0px); }
+  50% { transform: translate(100px, 100px); }
+  75% { transform: translate(0px, 100px); }
+  100% { transform: translate(0px, 0px); color: green; }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(0.5);
+  }
+  100% {
+    transform: rotate(360deg) scale(0.5);
+  }
+}

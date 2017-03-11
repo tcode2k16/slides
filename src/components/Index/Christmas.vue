@@ -319,18 +319,6 @@ export default {
   animation: 0.5s move linear infinite;
 }
 
-@keyframes move {
-  0% { transform: rotate(10deg)}
-  50%{transform: rotate(-30deg)}
-  100%{transform: rotate(10deg)}
-}
-
-@keyframes deco {
-  0% { transform: rotate(5deg)}
-  50%{transform: rotate(-10deg)}
-  100%{transform: rotate(5deg)}
-}
-
 .light {
   box-shadow: 1px 1px 10px #CCC,
                -2px 1px 10px #CCC,

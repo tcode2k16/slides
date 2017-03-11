@@ -39,7 +39,8 @@
   animation-fill-mode: forwards;
 }
 .line {
-  width: 260px;
+  width: 30%;
+  max-width: 250px;
   height: 2px;
   display: inline-block;
   background: #d94362;
@@ -50,13 +51,4 @@
 #symbol {
   stroke-dasharray: 0, 166.656;
 }
-@keyframes drawSymbol {
-  from { stroke-dasharray: 0, 166.656; }
-  to { stroke-dasharray: 166.656, 166.656; }
-}
-@keyframes drawLine {
-  from { transform: scale(0, 1); }
-  to { transform: scale(1, 1); }
-}
-
 </style>

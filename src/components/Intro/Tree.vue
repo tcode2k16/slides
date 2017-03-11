@@ -129,9 +129,5 @@
   transform: rotateX(-30deg);
 }
 
-@keyframes voaa {
-  0% {transform: translateY(0px)}
-  50% {transform: translateY(2px)}
-}
 
 </style>

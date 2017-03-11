@@ -11,6 +11,8 @@ import './css/normalize.css';
 import './css/skeleton.css';
 import './css/font-awesome.min.css';
 
+import './css/animations.css';
+
 
 /* eslint-disable no-new */
 new Vue({

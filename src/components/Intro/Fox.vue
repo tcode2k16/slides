@@ -175,27 +175,4 @@ a.author{
   bottom: 10px;
   right: 10px;
 }
-
-@keyframes piscar {
-  15% {
-    height: 1px;
-  }
-  45% {
-    height: 9px;
-  }
-  50% {
-    height: 1px;
-  }
-}
-@-webkit-keyframes piscar {
-  15% {
-    height: 1px;
-  }
-  45% {
-    height: 9px;
-  }
-  50% {
-    height: 1px;
-  }
-}
 </style>

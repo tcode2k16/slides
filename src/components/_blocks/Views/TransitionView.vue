@@ -60,7 +60,7 @@ import $ from 'jquery';
 import ProgressBar from './ProgressBar';
 
 // css
-import '../css/TransitionAnimations.css';
+// import '../css/TransitionAnimations.css';
 
 export default {
   components: { ProgressBar },

@@ -67,28 +67,6 @@
   box-shadow: inset -30px 0 rgba(0, 0, 0, 0.1);
 }
 
-@-webkit-keyframes rotateElement {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-  }
-  100% {
-    -webkit-transform: translate(-400px, 0);
-            transform: translate(-400px, 0);
-  }
-}
-
-@keyframes rotateElement {
-  0% {
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-  }
-  100% {
-    -webkit-transform: translate(-400px, 0);
-            transform: translate(-400px, 0);
-  }
-}
-
 .warp {
   width: 100vw;
   height: 70vh;
