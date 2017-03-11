@@ -226,8 +226,9 @@ export default {
 
 
 .halfImage {
-  max-width:100%;
-  height: 100vh;
+  /*max-width:100%;
+  height: 100vh;*/
+  width: 50%;
 }
 
 img {
@@ -253,6 +254,7 @@ iframe {
   padding: 0px 30px;
   box-shadow: 30px 0px 75px -30px rgba(0,0,0,0.9);
   z-index: 2;
+  width: 50%;
 }
 
 .Half {
