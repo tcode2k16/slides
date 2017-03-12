@@ -60,7 +60,7 @@
   </div>
 </div>
 
-<div class="view" data-animation-count="1">
+<div class="view">
   <div class="Hcontainer">
     <div class="HalfCard Vcontainer">
       <div class="Vcontainer">
