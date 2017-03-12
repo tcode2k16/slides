@@ -19,7 +19,7 @@
         <Quote>"If you build an army of 100 lions and their leader is a dog, in any fight, the lions will die like a dog. But if you build an army of 100 dogs and their leader is a lion, all dogs will fight like a lion"<br>&emsp;&emsp;- <b>Napoleon Bonaparte</b></Quote>
       </div>
     </div>
-    <img src="/static/LeaderSummative/napoleon.jpg" alt="" class="halfImage">
+    <img src="./assets/napoleon.jpg" alt="" class="halfImage">
   </div>
 </div>
 
@@ -56,7 +56,7 @@
         <RedFlower></RedFlower>
       </div>
     </div>
-    <img src="/static/LeaderSummative/oedipus.jpg" alt="" class="halfImage">
+    <img src="./assets/oedipus.jpg" alt="" class="halfImage">
   </div>
 </div>
 
@@ -69,7 +69,7 @@
         <Quote>“Even when [Gandhi] was fighting what was in effect a color war, he did not think of people in terms of race or status.”<br>&emsp;&emsp;- <b>George Orwell</b></Quote>
       </div>
     </div>
-    <img src="/static/LeaderSummative/gandhi.jpg" alt="" class="halfImage">
+    <img src="./assets/gandhi.jpg" alt="" class="halfImage">
   </div>
 </div>
 
@@ -82,7 +82,7 @@
         <RedFlower></RedFlower>
       </div>
     </div>
-    <img src="/static/LeaderSummative/mayer.jpg" alt="" class="halfImage">
+    <img src="./assets/mayer.jpg" alt="" class="halfImage">
   </div>
 </div>
 
@@ -122,9 +122,9 @@
     </div>
   </div>
   <div class="Hcontainer">
-    <img src="/static/LeaderSummative/oedipus.jpg" alt="" style="width:33.333333%;">
-    <img src="/static/LeaderSummative/gandhi.jpg" alt="" style="width:33.333333%;">
-    <img src="/static/LeaderSummative/mayer.jpg" alt="" style="width:33.333333%;">
+    <img src="./assets/oedipus.jpg" alt="" style="width:33.333333%;">
+    <img src="./assets/gandhi.jpg" alt="" style="width:33.333333%;">
+    <img src="./assets/mayer.jpg" alt="" style="width:33.333333%;">
   </div>
 
 </div>
@@ -132,11 +132,11 @@
 <div class="view">
   <div class="Hcontainer">
       <div class="Vcontainer Half">
-        <img src="/static/LeaderSummative/leader1.jpg" alt="" style="height: 50%">
-        <img src="/static/LeaderSummative/leader2.jpg" alt="" style="height: 50%">
+        <img src="./assets/leader1.jpg" alt="" style="height: 50%">
+        <img src="./assets/leader2.jpg" alt="" style="height: 50%">
       </div>
       <div class="Vcontainer Half">
-        <img src="/static/LeaderSummative/leader3.jpg" alt="" style="height: 50%">
+        <img src="./assets/leader3.jpg" alt="" style="height: 50%">
         <div style="height: 50%">
           <div class="Vcontainer">
             <RedFlower></RedFlower>
@@ -284,13 +284,13 @@ iframe {
 }
 
 .leader {
-  background-image: url("/static/LeaderSummative/leader.jpg");
+  background-image: url("./assets/leader.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .city {
-  background-image: url("/static/LeaderSummative/city.jpg");
+  background-image: url("./assets/city.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
