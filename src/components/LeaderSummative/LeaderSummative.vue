@@ -52,7 +52,7 @@
     <div class="HalfCard Vcontainer">
       <div class="Vcontainer">
         <RedFlower></RedFlower>
-        <h5>Oedipus turned from a great leader to a leader that failed.</h5>
+        <h5>Oedipus turned from a great leader to a leader that failed because he was not able to control his pride and turned it from his advantage to the very thing that led to his downfall.</h5>
         <RedFlower></RedFlower>
       </div>
     </div>
@@ -60,7 +60,7 @@
   </div>
 </div>
 
-<div class="view">
+<div class="view" data-animation-count="1">
   <div class="Hcontainer">
     <div class="HalfCard Vcontainer">
       <div class="Vcontainer">
@@ -117,7 +117,7 @@
   <div class="Vcontainer" style="position: absolute; z-index: 10;">
     <div class="Vcontainer Card popup">
       <RedFlower></RedFlower>
-      <h3>a great leader should be confident and possess pride, but at the same time he or she shouldn’t be consumed by it. </h3>
+      <h3>A successful leader should be confident enough to lead the people, while still remains humble when facing challenges.</h3>
       <RedFlower></RedFlower>
     </div>
   </div>
@@ -127,6 +127,27 @@
     <img src="/static/LeaderSummative/mayer.jpg" alt="" style="width:33.333333%;">
   </div>
 
+</div>
+
+<div class="view">
+  <div class="Hcontainer">
+      <div class="Vcontainer Half">
+        <img src="/static/LeaderSummative/leader1.jpg" alt="" style="height: 50%">
+        <img src="/static/LeaderSummative/leader2.jpg" alt="" style="height: 50%">
+      </div>
+      <div class="Vcontainer Half">
+        <img src="/static/LeaderSummative/leader3.jpg" alt="" style="height: 50%">
+        <div style="height: 50%">
+          <div class="Vcontainer">
+            <RedFlower></RedFlower>
+            <h3>Leaders are everwhere</h3>
+            <RedFlower></RedFlower>
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
 </div>
 
 
@@ -216,12 +237,13 @@ export default {
 }
 
 .animation .popup {
-  animation: none;
+  animation: none !important;
+  opacity: 0 !important;
 }
 
 .animation.anim1 .popup {
-  animation: fadeIn 1s ease;
-  animation-fill-mode: forwards;
+  animation: fadeIn 1s ease !important;
+  animation-fill-mode: forwards !important;
 }
 
 
