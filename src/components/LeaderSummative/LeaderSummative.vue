@@ -162,6 +162,35 @@
 
 </div>
 
+<div class="view">
+
+<div class="Vcontainer">
+  <h5 id="cited">Work Cited</h5>
+  <br>
+  <ul id="cited">
+
+<li>Hamilton, Neil. "Mohandas Gandhi." World History: The Modern Era, ABC-CLIO, 2017, worldhistory.abc-clio.com/Search/Display/314689. Accessed 22 Feb. 2017.</li>
+
+<li>James, Geoffrey. "Marissa Mayer's Top 10 Leadership Mistakes." Inc.com. Inc., 10 Jan. 2016. Web. 05 Mar. 2017.</li>
+
+<li>“Marissa Mayer's IIT Commencement Address. Perf. Marissa Mayer. Youtube. Google, 16 May 2009. Web. 4 Mar. 2017.</li>
+
+<li>“Mohandas Gandhi: Quote on Leadership." World History: The Modern Era, ABC-CLIO, 2017, worldhistory.abc-clio.com/Search/Display/343631. Accessed 22 Feb. 2017.</li>
+
+<li>Myatt, Mike. "Marissa Mayer: A Case Study In Poor Leadership." Forbes. Forbes Magazine, 13 Dec. 2015. Web. 04 Mar. 2017.</li>
+
+<li>"Napoleon Bonaparte Quotes." Quotes.net. STANDS4 LLC, 2017. Web. 6 Mar. 2017.</li>
+<li>Orwell, George. "Reflections on Gandhi." George Orwell: Reflections on Gandhi. N.p., Jan. 1949. Web. 23 Feb. 2017.</li>
+
+<li>Sophocles, Robert Fagles, and Bernard Knox. The Three Theban Plays ; Antigone ; Oedipus the King ; Oedipus. Harmondsworth, Middlesex, England: Penguin, 1984. Print.</li>
+
+<li>Yahoo CEO Marissa Mayer Talks Verizon Deal and Her Future at the Company. Perf. Marissa Mayer. Youtube. Bloomberg, 25 July 2016. Web. 4 Mar. 2017.</li>
+
+  </ul>
+</div>
+
+</div>
+
 </AnimatedSwipeView>
 </div>
 </template>
@@ -310,5 +339,10 @@ iframe {
 }
 
 
-
+#cited {
+  /*max-width: 1000px;*/
+  width: 80%;
+  align-self: center;
+  text-align: left;
+}
 </style>
